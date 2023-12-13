@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.mt {
+    margin-top: 5px;
+}
+
+.mb {
+    bottom: 5px;
+}
+
+.input-form {
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #ccc5b6;
+    padding: 15px;
+}
+
+.remove {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
